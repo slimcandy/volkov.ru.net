@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  /* font family */
+  --font-roboto: "Roboto", sans-serif;
+
+  /* font sizes */
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-base18: 18px;
+  --text-lg: 20px;
+  --text-l: 28px;
+  --text-xl: 40px;
+}

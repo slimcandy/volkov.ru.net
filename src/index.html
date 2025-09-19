@@ -29,7 +29,7 @@
 
 <body class="font-roboto text-gray-800">
   <!-- header -->
-  <section class="max-w-screen-xl mx-auto px-4 py-12">
+  <section class="max-w-(--breakpoint-xl) mx-auto px-4 py-12">
     <div class="flex justify-between">
       <h1>Курсы по JavaScript и React</h1>
       <p>от Алексея Волкова</p>
@@ -37,7 +37,7 @@
   </section>
   <!-- Hero -->
   <section
-    class="max-w-screen-xl mx-auto px-4 py-12 flex flex-col-reverse md:flex-row justify-between sm:gap-8 items-center">
+    class="max-w-(--breakpoint-xl) mx-auto px-4 py-12 flex flex-col-reverse md:flex-row justify-between sm:gap-8 items-center">
     <!-- Текстовый блок -->
     <div class="max-w-[684px] text-center md:text-left">
       <p class="mb-2 font-medium text-[16px] leading-[150%] text-[#31303]">
@@ -62,12 +62,12 @@
       </p>
       <!-- Кнопки -->
       <div class="flex flex-col md:flex-row gap-4 md:gap-6 max-w-[539px] mx-auto md:mx-0">
-        <a class="flex gap-2 w-full md:w-64 py-5 justify-center items-center bg-text-1 font-normal text-[16px] leading-[150%] text-white rounded-lg hover:bg-purple-700"
+        <a class="flex gap-2 w-full md:w-64 py-5 justify-center items-center bg-zinc-900 font-normal text-[16px] leading-[150%] text-white rounded-lg hover:bg-purple-700"
           href="https://stepik.org/course/221392/promo?auth=login">
           <img alt="js_logo" src="./images/js_logo1.svg" />
           <p>Грокаем JavaScript</p>
         </a>
-        <a class="flex gap-2 w-full md:w-64 py-5 justify-center items-center bg-text-1 font-normal text-[16px] leading-[150%] text-white rounded-lg hover:bg-purple-700"
+        <a class="flex gap-2 w-full md:w-64 py-5 justify-center items-center bg-zinc-900 font-normal text-[16px] leading-[150%] text-white rounded-lg hover:bg-purple-700"
           href="https://stepik.org/course/243415/promo?auth=login">
           <img alt="react_logo" src="./images/react_logo_light.svg" />
           <p>Грокаем React</p>
@@ -81,11 +81,11 @@
   </section>
   <!-- card -->
   <section class="py-12 px-4">
-    <div class="max-w-screen-xl mx-auto">
+    <div class="max-w-(--breakpoint-xl) mx-auto">
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <!-- Карточка -->
         <div class="px-5 py-5 border-2 rounded-[10px] border-black">
-          <h2 class="text-lg text-[#7a37d2] font-bold pb-2">
+          <h2 class="text-lg text-purple-800 font-bold pb-2">
             Фундамент, а не фишки
           </h2>
           <p class="text-sm">
@@ -94,7 +94,7 @@
           </p>
         </div>
         <div class="px-5 py-5 border-2 rounded-[10px] border-black">
-          <h2 class="text-lg text-[#7a37d2] font-bold pb-2">
+          <h2 class="text-lg text-purple-800 font-bold pb-2">
             Актуально всегда
           </h2>
           <p class="text-sm">
@@ -103,7 +103,7 @@
           </p>
         </div>
         <div class="px-5 py-5 border-2 rounded-[10px] border-black">
-          <h2 class="text-lg text-[#7a37d2] font-bold pb-2">
+          <h2 class="text-lg text-purple-800 font-bold pb-2">
             Учитесь в своём темпе
           </h2>
           <p class="text-sm">
@@ -111,7 +111,7 @@
           </p>
         </div>
         <div class="px-5 py-5 border-2 rounded-[10px] border-black">
-          <h2 class="text-lg text-[#7a37d2] font-bold pb-2">Вы не одни</h2>
+          <h2 class="text-lg text-purple-800 font-bold pb-2">Вы не одни</h2>
           <p class="text-sm">
             Телеграм чат для слушателей, ручная проверка заданий
           </p>
@@ -120,13 +120,13 @@
     </div>
   </section>
   <!-- Почему стоит купить курс -->
-  <section class="py-12 px-4 max-w-screen-xl mx-auto">
+  <section class="py-12 px-4 max-w-(--breakpoint-xl) mx-auto">
     <h2 class="font-bold mb-[60px] text-[32px] text-center leading-[120%] md:text-xl md:text-left">
       Почему курс лучше сотни видео на YouTube?
     </h2>
     <div class="flex flex-col md:flex-row max-w-5xl mx-auto">
       <!-- Черный блок (выше сверху и снизу, скруглён со всех сторон) -->
-      <div class="bg-text-1 text-white p-10 md:p-12 flex-1 rounded-xl relative -mt-6 -mb-6 z-10">
+      <div class="bg-zinc-900 text-white p-10 md:p-12 flex-1 rounded-xl relative -mt-6 -mb-6 z-10">
         <h3 class="text-[32px] font-bold mb-7 relative inline-block">
           На курсе
           <span class="absolute left-0 -bottom-2 w-full">
@@ -176,7 +176,7 @@
         </ul>
       </div>
       <!-- Белый блок (обычный размер) -->
-      <div class="bg-white text-black border border-black p-10 md:p-12 flex-1 rounded-xl md:ml-[-1rem] shadow-md">
+      <div class="bg-white text-black border border-black p-10 md:p-12 flex-1 rounded-xl md:-ml-4 shadow-md">
         <h3 class="font-bold mb-6 text-l">Самостоятельно по YouTube</h3>
         <ul class="space-y-4 text-gray-700">
           <li class="flex items-center gap-3">
@@ -217,7 +217,7 @@
     </div>
   </section>
   <!-- Программа курса -->
-  <section class="max-w-screen-xl mx-auto px-4 py-12">
+  <section class="max-w-(--breakpoint-xl) mx-auto px-4 py-12">
     <h2 class="font-bold mb-3 text-[32px] text-center leading-[120%] md:text-xl md:text-left">
       Программа курсов
     </h2>
@@ -233,7 +233,7 @@
     </div>
     <div class="grid md:grid-cols-2 gap-8">
       <!-- JS блок -->
-      <div class="bg-text-1 rounded-lg p-6">
+      <div class="bg-zinc-900 rounded-lg p-6">
         <h3 class="text-white text-center text-l font-semibold mb-6">
           Грокаем JavaScript
         </h3>
@@ -249,8 +249,8 @@
               </span>
             </button>
             <!-- заменили hidden на max-h-0 + transition -->
-            <div class="accordion-content mt-4 max-h-0 overflow-hidden transition-all duration-500 text-sm text-text-1">
-              <p class="text-base text-left text-text-1">
+            <div class="accordion-content mt-4 max-h-0 overflow-hidden transition-all duration-500 text-sm text-zinc-900">
+              <p class="text-base text-left text-zinc-900">
                 Как JavaScript взаимодействует с браузером. Что такое Call
                 Stack, Web APIs, очередь событий и микрозадачи. Почему
                 асинхронный код работает именно так и как это влияет на
@@ -268,7 +268,7 @@
               <span class="icon"><img alt="plus" src="./images/icon/plus1.svg" /></span>
             </button>
             <div
-              class="accordion-content mt-4 max-h-0 overflow-hidden transition-all duration-500 text-base text-text-1">
+              class="accordion-content mt-4 max-h-0 overflow-hidden transition-all duration-500 text-base text-zinc-900">
               <p>В JavaScript их не существует!</p>
               <p>
                 Никаких мифов. Разбираем Environment Records, [[OuterEnv]] и
@@ -349,7 +349,7 @@
         </div>
       </div>
       <!-- React блок -->
-      <div class="bg-text-1 rounded-lg p-6">
+      <div class="bg-zinc-900 rounded-lg p-6">
         <h3 class="text-white text-center text-l font-semibold mb-6">
           Грокаем React
         </h3>
@@ -461,7 +461,7 @@
   <!-- Процесс обучения -->
 
   <section class="py-12 px-4">
-    <div class="max-w-screen-xl mx-auto p-6">
+    <div class="max-w-(--breakpoint-xl) mx-auto p-6">
       <h1 class="text-[32px] font-bold mb-4 text-center md:text-left md:text-xl">
         Процесс обучения
       </h1>
@@ -475,7 +475,7 @@
         class="flex flex-col md:flex-row justify-between w-full border border-gray-300 rounded-lg overflow-hidden mb-14"
         role="tablist">
         <button
-          class="tab-button w-full py-3 text-sm font-medium transition-colors duration-200 ease-in-out bg-text-1 text-white"
+          class="tab-button w-full py-3 text-sm font-medium transition-colors duration-200 ease-in-out bg-zinc-900 text-white"
           data-target="video-content" aria-selected="true" role="tab" id="video-tab">
           Теория
         </button>
@@ -556,7 +556,7 @@
     </div>
   </section>
   <!-- Автор курса -->
-  <section class="max-w-screen-xl mx-auto px-4 py-12">
+  <section class="max-w-(--breakpoint-xl) mx-auto px-4 py-12">
     <h2 class="text-[32px] text-center font-bold mb-12 md:text-left md:text-xl">
       Автор курса
     </h2>
@@ -606,21 +606,21 @@
   </section>
   <!-- Цена -->
   <section class="pb-[120px] px-4" id="price">
-    <div class="max-w-screen-xl mx-auto">
+    <div class="max-w-(--breakpoint-xl) mx-auto">
       <h2 class="text-l sm:text-xl md:text-xl font-bold mb-14 text-center md:text-left">
         Способы оплаты
       </h2>
       <div class="flex flex-wrap justify-center gap-4 pb-10">
-        <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center">Перед покупкой можно посмотреть
+        <span class="bg-zinc-900 text-white text-base py-2 px-6 rounded-full text-center">Перед покупкой можно посмотреть
           бесплатные видеуроки</span>
-        <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center underline"><a
+        <span class="bg-zinc-900 text-white text-base py-2 px-6 rounded-full text-center underline"><a
             href="https://help.stepik.org/article/54769?">Есть оплата через работодателя или свою компанию</a></span>
-        <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center underline"><a
+        <span class="bg-zinc-900 text-white text-base py-2 px-6 rounded-full text-center underline"><a
             href="https://help.stepik.org/article/76213">Курсы можно оплатить частями*</a></span>
-        <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center underline"><a
+        <span class="bg-zinc-900 text-white text-base py-2 px-6 rounded-full text-center underline"><a
             href="https://help.stepik.org/article/54778">Можно вернуть деньги в течение 30-ти дней после
             покупки</a></span>
-        <span class="bg-text-1 text-white text-base py-2 px-6 rounded-full text-center underline"><a
+        <span class="bg-zinc-900 text-white text-base py-2 px-6 rounded-full text-center underline"><a
             href="https://help.stepik.org/article/54732">Можно купить курс в подарок</a></span>
       </div>
       <small><i>* – дважды подуймайте, прежде чем брать кредит!</i></small>
@@ -642,11 +642,11 @@
           </a>
           <!-- Кнопки снизу -->
           <a href="https://stepik.org/course/221392/invoice/"
-            class="flex items-center justify-center gap-2 w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-7a37d2 hover:text-7a37d2">
+            class="flex items-center justify-center gap-2 w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-purple-800 hover:text-purple-800">
             Заплатит работодатель
           </a>
           <a href="https://stepik.org/course/221392/pay/"
-            class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
+            class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-purple-800 hover:text-purple-800">
             <img alt="Долями" class="h-4" src="./images/icon/dolyame.svg" />
             Долями или
             <span class="text-green-500 text-xl"><img alt="split" src="./images/icon/split.svg" /></span>в Сплит
@@ -669,11 +669,11 @@
           </a>
           <!-- Кнопки снизу -->
           <a href="https://stepik.org/course/243415/invoice/"
-            class="flex items-center justify-center gap-2 w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-7a37d2 hover:text-7a37d2">
+            class="flex items-center justify-center gap-2 w-full border border-black py-4 rounded-lg mb-3 text-gray-700 font-medium text-base hover:border-purple-800 hover:text-purple-800">
             Заплатит работодатель
           </a>
           <a href="https://stepik.org/course/243415/pay/"
-            class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-7a37d2 hover:text-7a37d2">
+            class="w-full border border-black py-4 rounded-lg mb-3 flex items-center justify-center gap-2 text-base hover:border-purple-800 hover:text-purple-800">
             <img alt="Долями" class="h-4" src="./images/icon/dolyame.svg" />
             Долями или
             <span class="text-green-500 text-xl"><img alt="split" src="./images/icon/split.svg" /></span>в Сплит
@@ -686,7 +686,7 @@
   <!-- Swiper CSS -->
   <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
   <section class="pb-[60px]">
-    <div class="max-w-screen-xl mx-auto px-4">
+    <div class="max-w-(--breakpoint-xl) mx-auto px-4">
       <!-- Заголовок + наши кастомные кнопки -->
       <div class="flex flex-col md:flex-row items-center justify-between mb-6 md:mb-8 gap-4 md:gap-0">
         <h2 class="text-[32px] font-bold text-center md:text-xl md:text-left">
@@ -818,7 +818,7 @@
   </script>
   <!-- Видео (слайдер) -->
   <section class="pb-[80px] px-4 sm:pb-[120px]">
-    <div class="max-w-screen-xl mx-auto">
+    <div class="max-w-(--breakpoint-xl) mx-auto">
       <!-- Заголовок + наши кастомные кнопки -->
       <div class="flex flex-col md:flex-row items-center justify-between mb-6 md:mb-8 gap-4 md:gap-0">
         <h2 class="text-[32px] font-bold text-center md:text-xl md:text-left">
@@ -925,7 +925,7 @@
   </script>
   <!-- FAQ -->
   <section class="pb-[76px]">
-    <div class="max-w-screen-xl mx-auto px-4">
+    <div class="max-w-(--breakpoint-xl) mx-auto px-4">
       <h2 class="text-[32px] mb-[60px] font-bold text-center md:text-xl md:text-left">
         Часто задаваемые вопросы
       </h2>
