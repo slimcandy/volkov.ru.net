@@ -901,184 +901,214 @@
         </div>
       </div>
     </section>
-    <!-- Статьи (слайдер) -->
-    <!-- Swiper CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
-    <section class="pb-[60px]">
-      <div class="max-w-(--breakpoint-xl) mx-auto px-4">
-        <!-- Заголовок + наши кастомные кнопки -->
-        <div
-          class="flex flex-col md:flex-row items-center justify-between mb-6 md:mb-8 gap-4 md:gap-0"
+    <!-- FAQ -->
+    <div class="bg-white dark:bg-gray-900">
+      <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
+        <h2
+          class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white"
         >
-          <h2 class="text-[32px] font-bold text-center md:text-xl md:text-left">
-            Статьи
-          </h2>
-          <div class="flex gap-3">
-            <!-- ВЛЕВО -->
-            <button
-              aria-label="Предыдущая"
-              class="nav-btn blog-prev w-10 h-10 rounded-full bg-purple-600 text-white grid place-items-center shadow hover:bg-purple-700 transition"
-              type="button"
-            >
-              <!-- стрелка влево -->
-              <svg
-                aria-hidden="true"
-                fill="currentColor"
-                height="20"
-                viewbox="0 0 20 20"
-                width="20"
+          Часто задаваемые вопросы
+        </h2>
+        <div class="mt-20">
+          <dl
+            class="space-y-16 sm:grid sm:grid-cols-2 sm:space-y-0 sm:gap-x-6 sm:gap-y-16 lg:grid-cols-3 lg:gap-x-10"
+          >
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
               >
-                <path
-                  clip-rule="evenodd"
-                  d="M12.707 15.707a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 111.414 1.414L8.414 10l4.293 4.293a1 1 0 010 1.414z"
-                  fill-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
-            <!-- ВПРАВО -->
-            <button
-              aria-label="Следующая"
-              class="nav-btn blog-next w-10 h-10 rounded-full bg-purple-600 text-white grid place-items-center shadow hover:bg-purple-700 transition"
-              type="button"
-            >
-              <!-- стрелка вправо -->
-              <svg
-                aria-hidden="true"
-                fill="currentColor"
-                height="20"
-                viewbox="0 0 20 20"
-                width="20"
-              >
-                <path
-                  clip-rule="evenodd"
-                  d="M7.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L11.586 10 7.293 5.707a1 1 0 010-1.414z"
-                  fill-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
-          </div>
-        </div>
-        <!-- Слайдер -->
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <!-- 1 -->
-            <div class="swiper-slide">
-              <article
-                class="flex flex-col justify-between border-2 border border-black px-5 py-5 rounded-xl overflow-hidden shadow-sm h-[400px]"
-              >
-                <h2 class="sr-only">Замыканий в JavaScript не существует</h2>
-                <div>
-                  <img
-                    alt="news_image"
-                    class="w-full h-[205px]"
-                    src="https://habrastorage.org/getpro/habr/upload_files/c0c/870/d8d/c0c870d8d670d71b07d24fdc985a3e5d.png"
-                  />
-                  <p class="text-lg mb-3 mt-3 font-medium">
-                    Замыканий в JavaScript не существует
-                  </p>
-                </div>
-                <div class="flex justify-between items-center text-sm">
-                  <!-- <span class="text-gray-500">Программирование</span> -->
-                  <a
-                    class="text-purple-600 underline"
-                    href="https://habr.com/ru/articles/947116/"
-                    >Читать</a
-                  >
-                </div>
-              </article>
+                Курс подойдёт новичкам?
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Нет, курсы подойдут для действующих разработчиков уровня Middle,
+                стремящихся перейти на уровень Senior.
+              </dd>
             </div>
-
-            <div class="swiper-slide">
-              <article
-                class="flex flex-col justify-between border-2 border border-black px-5 py-5 rounded-xl overflow-hidden shadow-sm h-[400px]"
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
               >
-                <h2 class="sr-only">Gatsby and its Greatness</h2>
-                <div>
-                  <img
-                    alt="news_image"
-                    class="w-full h-[205px]"
-                    src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/b1f/bc5/dd3/b1fbc5dd3faa58c793196a6107b8de61.png"
-                  />
-                  <p class="text-lg mb-3 mt-3 font-medium">
-                    Gatsby and its Greatness
-                  </p>
-                </div>
-                <div class="flex justify-between items-center text-sm">
-                  <!-- <span class="text-gray-500">Программирование</span> -->
-                  <a
-                    class="text-purple-600 underline"
-                    href="https://habr.com/ru/articles/804783/"
-                    >Читать</a
-                  >
-                </div>
-              </article>
+                Есть ли гарантия трудоустройства после курсов?
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Нет, курсы разбирают только указанные темы. Они не обучают
+                проходить собеседования или оформлять резюме.
+              </dd>
             </div>
-
-            <div class="swiper-slide">
-              <article
-                class="flex flex-col justify-between border-2 border border-black px-5 py-5 rounded-xl overflow-hidden shadow-sm h-[400px]"
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
               >
-                <h2 class="sr-only">
-                  macOS Terminal: A Guide for Front-End Developers
-                </h2>
-                <div>
-                  <img
-                    alt="news_image"
-                    class="w-full h-[205px]"
-                    src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/4cd/eac/83a/4cdeac83aea06204d3b865a975b8211a.png"
-                  />
-                  <p class="text-lg mb-3 mt-3 font-medium">
-                    macOS Terminal: A Guide for Front-End Developers
-                  </p>
-                </div>
-                <div class="flex justify-between items-center text-sm">
-                  <!-- <span class="text-gray-500">Программирование</span> -->
-                  <a
-                    class="text-purple-600 underline"
-                    href="https://habr.com/ru/articles/785084/"
-                    >Читать</a
-                  >
-                </div>
-              </article>
+                Курс стоит дорого
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Трижды подумайте прежде, чем лезть в долги. Все материалы есть в
+                открытом доступе. Если у вас есть 4-6 месяцев ежедневной учёбы и
+                желание разобраться - вы сможете всё изучить и без курсов.
+              </dd>
             </div>
-
-            <!-- 2 -->
-            <div class="swiper-slide">
-              <article
-                class="flex flex-col justify-between border-2 border border-black px-5 py-5 rounded-xl overflow-hidden shadow-sm h-[400px]"
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
               >
-                <h2 class="sr-only">
-                  HDR Displays and CSS: Enhancing Color and Brightness on the
-                  Web
-                </h2>
-                <div>
-                  <img
-                    alt="news_image"
-                    class="w-full h-[205px]"
-                    src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/f9a/2bf/4e2/f9a2bf4e2dd35cf83463b0fedbd859bf.png"
-                  />
-                  <p class="text-lg mb-3 mt-3 font-medium">
-                    HDR Displays and CSS: Enhancing Color and Brightness on the
-                    Web
-                  </p>
-                </div>
-                <div class="flex justify-between items-center text-sm">
-                  <!-- <span class="text-gray-500">Программирование</span> -->
-                  <a
-                    class="text-purple-600 underline"
-                    href="https://habr.com/ru/articles/715084/"
-                    >Читать</a
-                  >
-                </div>
-              </article>
+                Много ли в курсе практики?
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Нет, основной упор курсов на теорию. В курсе много визуализаций
+                процессов и объяснений базовых неочевидных вещей. Автор курса
+                считает радость от 100% прорешенных задачек на платформе
+                <strong>ложной</strong> победой. Настоящая победа – когда у вас
+                самих нет вопросов и вы можете визуализировать любой алгоритм и
+                понять почему так. Это не курс по синтаксису языка и библиотеки
+                – это курс про понимание того, "как" и "зачем".
+              </dd>
             </div>
-          </div>
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
+              >
+                Много ли видео уроков?
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Нет, курсы нацелены на результат: понимание мотивации создания
+                технологий и основных принципов их работы. Автору самому
+                интересно сделать лучшие курсы по этим двум темам для
+                разработчиков middle+. Автор активно проверяет домашние задания
+                и помогает в чате курса.
+              </dd>
+            </div>
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
+              >
+                Мне не нравится, хочу вернуть деньги.
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Курсы работают на платформе Stepik. Она же обрабатывает платежи.
+                Возврат покупок возможен и прозрачен. Но это не мгновенный
+                процесс! Прочитайте всё, что интересно на платформе:
+                <a href="https://help.stepik.org/article/54760"
+                  >help.stepik.org/article/54760</a
+                >
+              </dd>
+            </div>
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
+              >
+                Это подписка?
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Нет, доступ к курсу продаётся навсегда (пока жива платформа
+                степик). Все обновления и дополнения будут бесплатными.
+              </dd>
+            </div>
+            <div class="border-b border-purple-400 pb-3">
+              <dt
+                class="text-base/7 font-semibold text-gray-900 dark:text-white"
+              >
+                Где отзывы?
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
+                Автор курса только начинает свою карьеру блогера и не достиг ещё
+                никаких значимых результатов. Автор работает один, без команды
+                рекламщиков. Пока отзывов нет - будет здорово, если вы оцените
+                курс.
+              </dd>
+            </div>
+          </dl>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="bg-white py-24 sm:py-32 dark:bg-gray-900">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+          <h2
+            class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl dark:text-white"
+          >
+            Статьи
+          </h2>
+          <p class="mt-2 text-lg/8 text-gray-600 dark:text-gray-300">
+            Мои заметки с разных сайтов.
+          </p>
+        </div>
+        <div
+          class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 dark:border-gray-700"
+        >
+          <article class="flex max-w-xl flex-col items-start justify-between">
+            <div class="group relative grow border-b border-purple-400 pb-3">
+              <h3
+                class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300"
+              >
+                <a href="https://habr.com/ru/articles/947116/">
+                  <span class="absolute inset-0"></span>
+                  Замыканий в JavaScript не существует
+                </a>
+              </h3>
+              <p
+                class="mt-5 line-clamp-3 text-sm/6 text-gray-600 dark:text-gray-400"
+              >
+                По крайней мере так сказал блогер Demimurych у меня в
+                комментариях. Дальше была беседа в комментариях, из который я
+                вынес два хороших замечания: Тему замыканий в языках
+                программирования стоит рассказывать с проблемы функционального
+                аргумента. Реализация этой проблемы наиболее и единственно полно
+                описана в ECMAScript спецификации. Я потратил время и покажу,
+                что нашёл!
+              </p>
+            </div>
+          </article>
+          <article class="flex max-w-xl flex-col items-start justify-between">
+            <div class="group relative grow border-b border-purple-400 pb-3">
+              <h3
+                class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300"
+              >
+                <a href="https://habr.com/ru/articles/804783/">
+                  <span class="absolute inset-0"></span>
+                  Gatsby and its Greatness
+                </a>
+              </h3>
+              <p
+                class="mt-5 line-clamp-3 text-sm/6 text-gray-600 dark:text-gray-400"
+              >
+                In the internet’s early days, blogging was straightforward. A
+                server with PHP and MySQL allowed you to share your thoughts
+                globally. Even FTP access with an index.html file sufficed.
+                However, as the web evolved, so did blogging requirements.
+                Non-programmers needed user-friendly web interfaces, faster
+                loading times, and seamless daily publishing. Platforms like
+                Reddit, WordPress, and Tumblr emerged, but they faced a common
+                issue: website ownership.
+              </p>
+            </div>
+          </article>
+          <article class="flex max-w-xl flex-col items-start justify-between">
+            <div class="group relative grow border-b border-purple-400 pb-3">
+              <h3
+                class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300"
+              >
+                <a href="https://habr.com/ru/articles/785084/">
+                  <span class="absolute inset-0"></span>
+                  macOS Terminal: A Guide for Front-End Developers
+                </a>
+              </h3>
+              <p
+                class="mt-5 line-clamp-3 text-sm/6 text-gray-600 dark:text-gray-400"
+              >
+                They might sound complicated, but they are actually a
+                fundamental part of the language. In this article, we’ll explore
+                closures in a straightforward and practical way. Let’s clear up
+                common misunderstandings. Walk through real-world examples. Nail
+                those tricky interview questions about closures. By the end,
+                you’ll see closures not as a hurdle, but as a valuable part of
+                your JavaScript toolkit.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -1253,125 +1283,7 @@
         },
       });
     </script>
-    <!-- FAQ -->
-    <div class="bg-white dark:bg-gray-900">
-      <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
-        <h2
-          class="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl dark:text-white"
-        >
-          Часто задаваемые вопросы
-        </h2>
-        <div class="mt-20">
-          <dl
-            class="space-y-16 sm:grid sm:grid-cols-2 sm:space-y-0 sm:gap-x-6 sm:gap-y-16 lg:grid-cols-3 lg:gap-x-10"
-          >
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Курс подойдёт новичкам?
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Нет, курсы подойдут для действующих разработчиков уровня Middle,
-                стремящихся перейти на уровень Senior.
-              </dd>
-            </div>
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Есть ли гарантия трудоустройства после курсов?
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Нет, курсы разбирают только указанные темы. Они не обучают
-                проходить собеседования или оформлять резюме.
-              </dd>
-            </div>
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Курс стоит дорого
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Трижды подумайте прежде, чем лезть в долги. Все материалы есть в
-                открытом доступе. Если у вас есть 4-6 месяцев ежедневной учёбы и
-                желание разобраться - вы сможете всё изучить и без курсов.
-              </dd>
-            </div>
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Много ли в курсе практики?
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Нет, основной упор курсов на теорию. В курсе много визуализаций
-                процессов и объяснений базовых неочевидных вещей. Автор курса
-                считает радость от 100% прорешенных задачек на платформе
-                <strong>ложной</strong> победой. Настоящая победа – когда у вас
-                самих нет вопросов и вы можете визуализировать любой алгоритм и
-                понять почему так. Это не курс по синтаксису языка и библиотеки
-                – это курс про понимание того, "как" и "зачем".
-              </dd>
-            </div>
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Много ли видео уроков?
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Нет, курсы нацелены на результат: понимание мотивации создания
-                технологий и основных принципов их работы. Автору самому
-                интересно сделать лучшие курсы по этим двум темам для
-                разработчиков middle+. Автор активно проверяет домашние задания
-                и помогает в чате курса.
-              </dd>
-            </div>
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Мне не нравится, хочу вернуть деньги.
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Курсы работают на платформе Stepik. Она же обрабатывает платежи.
-                Возврат покупок возможен и прозрачен. Но это не мгновенный
-                процесс! Прочитайте всё, что интересно на платформе:
-                <a href="https://help.stepik.org/article/54760"
-                  >help.stepik.org/article/54760</a
-                >
-              </dd>
-            </div>
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Это подписка?
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Нет, доступ к курсу продаётся навсегда (пока жива платформа
-                степик). Все обновления и дополнения будут бесплатными.
-              </dd>
-            </div>
-            <div class="border-b border-purple-400 pb-3">
-              <dt
-                class="text-base/7 font-semibold text-gray-900 dark:text-white"
-              >
-                Где отзывы?
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 dark:text-gray-400">
-                Автор курса только начинает свою карьеру блогера и не достиг ещё
-                никаких значимых результатов. Автор работает один, без команды
-                рекламщиков. Пока отзывов нет - будет здорово, если вы оцените
-                курс.
-              </dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-    </div>
+
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         const tabs = Array.from(document.querySelectorAll(".tab-button"));
